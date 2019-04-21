@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Demo</title>
+</head>
+<style>
+    #content {
+        margin:0 auto;
+        border:1px red solid;
+        text-align:center;
+        width:500px;
+        height:300px;
+
+    }
+    #content::before {
+        content: '';
+        display: inline-block;
+        height:100%;
+        vertical-align: middle;
+    }
+    #content img {
+        vertical-align:middle;
+        
+    }
+</style>
+<body>
+    <div id = "content">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD0irY_XEioTD1eBezJCKi3RqIEiCOIySvLymLfxf8mop1VCQ8jw" alt="">
+
+    </div>
+    
+</body>
+</html>
